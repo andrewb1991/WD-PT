@@ -40,25 +40,66 @@ cursor: pointer;
 
 .nav2 {
     width: 100%;
-    height: 300px;
+    height: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    color: grey;
+    font-size: 10pt;
 }
 
 #subtitle2 {
     margin: 15px;
-    border: 1px solid black;
+    border: 3px solid rgba(124, 122, 122, 0.192);
+    padding: 10px;
+    border-radius: 18%;
     height: 26px;
     width: 81px;
     text-align: center;
+    transition: border 1.6s ease;
+    transition: color 0.4s ease-in-out;
+
 }
 
-#subtitle3 > span {
+#subtitle3  {
     margin: 15px;
-    border: 1px solid black;
-    height: 26px;
-    width: 100px;
-    text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+}
+
+.sub_block > span {
+border: 3px solid rgba(124, 122, 122, 0.192);
+margin: 3px;
+color: grey;
+border-radius: 18%;
+padding: 3px;
+padding: 14px;
+transition: border 0.5s ease-in-out;
+transition: color 0.5s ease-in-out;
+
+}
+
+#subtitle2:hover {
+    border: 3px solid rgba(227, 83, 83, 0.563);
+    cursor: pointer;
+    color: black;
+}
+
+.sub_block > span:hover {
+border: 3px solid grey;
+color: black;
+font-size: bold;
+cursor: pointer;
+
+}
+
+.nav3 {
+width: 100%;
+
+}
+
+.navcard {
+
 }
